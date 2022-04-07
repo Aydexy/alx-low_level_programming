@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - starting point
+ * Description:  main - starting point
  *
  * Return: 0 valve must be returned
  */
