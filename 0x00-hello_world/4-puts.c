@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * Description: main - It prints out the standard out.
  * Return: 0 if succesful
  */
