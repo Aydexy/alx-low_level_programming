@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * Description:  main - starting point
+ * main - Entry point
  *
- * Return: 0 valve must be returned
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
