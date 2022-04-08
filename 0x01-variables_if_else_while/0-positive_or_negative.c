@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Description main - Check and print if the mumber is positive, zero or nagative
+ * main -Entry point
  *
- * Return: retuning 0 value means sucess
+ * Return: must return value 0 (success)
  */
 int main(void)
 {
@@ -12,19 +12,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	if (n>0)
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n==0)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
-	else (n<0)
+	else
 	{
 		printf("%d is negative\n", n);
 	}
-
 	return (0);
 }
