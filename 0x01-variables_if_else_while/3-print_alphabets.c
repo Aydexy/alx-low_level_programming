@@ -1,5 +1,7 @@
 #include <stdio.h>
-/** Description:main - Alphabet in lowercase and uppercase
+/**
+ * Description:main - Alphabet in lowercase and uppercase
+ * 
  * Return: 0 value
  */
 int main(void)
