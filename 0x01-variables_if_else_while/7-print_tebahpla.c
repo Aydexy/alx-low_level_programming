@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print mirror
+ * Description: main - print mirror of Alphabet
  *
- * Reatun: 0 value
+ * Return: 0 value
  */
 int main(void)
 {
