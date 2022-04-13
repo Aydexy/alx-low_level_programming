@@ -5,7 +5,9 @@
  * Return - 0 value on success
  */
 int main(void)
-/* main function */
+/* main function
+ * return value zero on success
+ */
 {
 	_putchar('_');
 	_putchar('p');
