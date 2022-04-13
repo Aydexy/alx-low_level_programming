@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_t0_98 - Print all natural numbers from n to 98
+ * print_to_98 - Print all natural numbers from n to 98
+ *
  * @n: int type value
  */
 
