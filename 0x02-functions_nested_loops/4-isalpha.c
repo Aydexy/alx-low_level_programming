@@ -2,7 +2,7 @@
 /**
  * _isalpha - checks for alphabetic character
  * @c: int type value
- * Return - 0 value on success
+ * Return: 1 if letter, lowercase or uppercase, and 0 otherwise
  */
 int _isalpha(int c)
 {
