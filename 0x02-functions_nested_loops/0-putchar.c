@@ -1,13 +1,10 @@
 #include "main.h"
 /**
- * Decsription: main - print _putchar
- *
- * Return - 0 value on success
+ * main - Print "_putchar" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0 value on success
  */
 int main(void)
-/* main function
- * return value zero on success
- */
 {
 	_putchar('_');
 	_putchar('p');
