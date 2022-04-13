@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Write a function that prints the alphabet, in lowercase, followed by a new line.
+ * print_alphabet - Print alphabet in lowercase using only `_putchar`
  * Description: You are not allowed to include standard libraries.
- * Return: 0
+ * Return: 0 value on success
  */
 void print_alphabet(void)
 {
