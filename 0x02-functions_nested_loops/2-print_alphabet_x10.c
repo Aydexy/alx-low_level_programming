@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints 10 times the alphabet, in lowercase, followed by a new line.
+ * main - print_alphabet_x10
  * Description: You are not allowed to include standard libraries.
  * Return: 0 value on success
  */
