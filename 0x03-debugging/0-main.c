@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - tests function if integre is positive or negative
+ * main - tests function if integer is positive or negative
  * Return: 0
  */
 
