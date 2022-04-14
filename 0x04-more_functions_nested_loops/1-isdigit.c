@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * _isdigit - returns 1 if digit, 0 if not
 * @c: an int given by the main function
