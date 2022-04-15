@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 * print_square - prints a size by size square
 * @size: an int given by main
