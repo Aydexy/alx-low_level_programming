@@ -7,9 +7,17 @@
 
 void print_diagonal(int n)
 {
-	print_diagonal(0);
-	print_diagonal(2);
-	print_diagonal(10);
-	print_diagonal(-4);
-	return (0);
+	int i, j;
+
+	if (n <= 0)/* if 0 or negative just newline */
+		_putchar('\n');
+	for (i = 0; i < n; i++)/* we want the amount of rows equal to n */
+	{
+		for (j = n - i; j < n; j++)
+		{
+			_putchar(' ');
+		}
+		_putchar('\\');
+		_putchar('\n');
+	}
 }
