@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_number - prints integer number
- * @n: int tuype value
+ * @n: int type value
  */
 
 void print_number(int n)
