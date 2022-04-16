@@ -1,6 +1,6 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main - program start execution
+ * main - Entry point
  *
  * Return - 0 value on success
  */
