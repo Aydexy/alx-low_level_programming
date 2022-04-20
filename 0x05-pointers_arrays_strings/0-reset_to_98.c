@@ -5,7 +5,7 @@
  * @n: int data value
  * Return - 0 value on success
  */
-void reset_to_98(int *)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
