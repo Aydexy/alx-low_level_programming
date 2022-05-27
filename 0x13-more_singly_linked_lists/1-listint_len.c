@@ -7,13 +7,13 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	size_t num_len;
+	size_t numele;
 
-	num_len = 0;
+	numele = 0;
 	while (h != NULL)
 	{
-		num_len++;
+		numele++;
 		h = h->next;
 	}
-	return (num_len);
+	return (numele);
 }
