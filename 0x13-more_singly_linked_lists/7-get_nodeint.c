@@ -5,21 +5,24 @@
  * @index: the index of the node starting at 0
  * Return: the nth node of listint_t or NULL if the node doesn't exist
  */
-
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	listint_t *nth_node;
+	listint_t *nthnode;
 	unsigned int counter;
-	
-	counter = 0
-	nth_node = head;
-
-	while (nth_node != NULL)
+	/* keep track of the traverse node */
+	/* counter is the index of the node we´re currently looking at */
+	counter = 0;
+	/* then initialize a pointer to point to the head node */
+	/* this pointer will be used for traversing the list */
+	nthnode = head;
+	/* loop through the linked list */
+	while (nthnode != NULL)
 	{
 		if (counter == index)
-			return (nth_node);
+			return (nthnode);
 		counter++;
-		nth_node = nth_node->next;
+		nthnode = nthnode->next;
 	}
+	/* if the node does not exist return NULL */
 	return (NULL);
 }
